@@ -19,9 +19,9 @@ MainWindow::MainWindow(QWidget *parent)
     scene->addItem(photo);
     manager=new QNetworkAccessManager;
     ratio=1;
-    client_id="js0iVRjVZxKW3dN17E9zSofN";
-    client_secret="b3aUQDdGj24ieMM0umnCKcUaR5O1ihC1";
-    access_token="24.8a6dfb166aba905ebf204b875b1ec67b.2592000.1708355340.282335-47381960";
+    client_id="";
+    client_secret="";
+    access_token="";
     connect(manager, SIGNAL(finished(QNetworkReply *)), this, SLOT(replyFinished(QNetworkReply *)));
 
 
